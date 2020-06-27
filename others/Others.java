@@ -12,8 +12,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import lawyer.control.Lawyers;
-import processes.control.Processes;
+import lawyer.Lawyers;
+import processes.Processes;
 
 public class Others {
     public static void callError(Stage stage, String text) {

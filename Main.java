@@ -1,5 +1,3 @@
-package base;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
@@ -12,8 +10,8 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 import javafx.util.converter.IntegerStringConverter;
-import lawyer.control.Lawyers;
-import processes.control.Processes;
+import lawyer.Lawyers;
+import processes.Processes;
 import others.Others;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -378,13 +376,13 @@ public class Main extends Application {
 
         Scene scene = new Scene(root);   //Новая сцена
         //scene.getStylesheets().add(getClass().getResource("darkStyle.css").toString());
-        scene.getStylesheets().add(getClass().getResource("lightStyle.css").toString());
+        //scene.getStylesheets().add(getClass().getResource("lightStyle.css").toString());
 
         stage.setScene(scene);
         stage.setTitle("Lawyer Helper v0.1a");   //Задаём название окна
         stage.setWidth(WIDTH);   //Ширину
         stage.setHeight(HEIGHT);   //И высоту окна
-        stage.getIcons().add(new Image("ico.jpg"));
+        stage.getIcons().add(new Image("img/ico.jpg"));
         stage.show();   //Отображаем окно
     }
 

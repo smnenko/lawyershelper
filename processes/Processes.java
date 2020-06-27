@@ -1,11 +1,10 @@
-package processes.control;
+package processes;
 
 import javafx.collections.ObservableList;
 import javafx.scene.control.TableView;
-import lawyer.control.Lawyers;
+import lawyer.Lawyers;
 
 import java.io.*;
-import java.util.Scanner;
 
 final public class Processes {
     private static int id;
